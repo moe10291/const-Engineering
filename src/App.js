@@ -28,15 +28,27 @@ function App() {
 }
 
 function Opportunities() {
-  return <p>Discover our numerous opportunities</p>;
+  return <div>
+    <p>Discover our numerous opportunities</p>
+    <br></br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+  </div>;
 }
 
 function Solutions() {
-  return <p>Solutions that help you.</p>;
+  return <div>
+    <p>Solutions that help you.</p>
+    <br></br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+    </div>;
 }
 
 function Contact() {
-  return <p>Feel free to reach us.</p>;
+  return <div>
+    <p>Feel free to reach us.</p>
+    <br></br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+  </div>;
 }
 
 function Home() {
